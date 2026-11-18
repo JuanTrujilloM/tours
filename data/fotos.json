@@ -1,0 +1,62 @@
+{
+  "_comentario": "Manifiesto de imagenes. Para agregar una foto: copiala a fotos-originales/, agrega una entrada aqui y corre `npm run images`. El campo `archivo` es el nombre dentro de fotos-originales/. El campo `id` define el nombre de los archivos generados en assets/img/ y debe ser unico, en minusculas y sin espacios.",
+  "anchos": [480, 960, 1600],
+  "fotos": [
+    {
+      "id": "pavon-cinchado-rio",
+      "archivo": "1.jpg",
+      "rol": "hero",
+      "galeria": true,
+      "alt": "Pescador sostiene un pavón cinchado adulto de librea verde oliva y amarilla con barras oscuras, a bordo de una embarcación sobre un río de aguas negras rodeado de selva.",
+      "pie": "Pavón cinchado (Cichla temensis) en el patrón barrado, el que los estudios asocian a la condición reproductiva."
+    },
+    {
+      "id": "pavon-paca-playa",
+      "archivo": "2.jpg",
+      "rol": "especie",
+      "galeria": true,
+      "alt": "Pescador sostiene un pavón con hileras de puntos claros sobre el cuerpo, de pie en una playa de arena junto a un río de aguas oscuras, con la caña de pescar apoyada en primer plano.",
+      "pie": "El mismo Cichla temensis en el patrón moteado o «paca», propio del reposo reproductivo."
+    },
+    {
+      "id": "payara",
+      "archivo": "3.jpg",
+      "rol": "especie",
+      "galeria": true,
+      "alt": "Payara de cuerpo plateado y mandíbula con colmillos largos, colgada de una cuerda entre dos árboles en una orilla arenosa bajo un cielo nublado.",
+      "pie": "Payara (Hydrolycus armatus), el depredador de colmillos de los raudales."
+    },
+    {
+      "id": "raudal-barra-arena",
+      "archivo": "4.jpg",
+      "rol": "lugar",
+      "galeria": true,
+      "alt": "Pescador de pie sobre una barra de arena blanca con una captura en la mano; detrás, un raudal de aguas revueltas corre entre lajas de roca y una embarcación de madera espera varada en la orilla.",
+      "pie": "Barras de arena y raudales sobre el río Inírida en temporada de aguas bajas."
+    },
+    {
+      "id": "raudal-pescador",
+      "archivo": "5.jpg",
+      "rol": "lugar",
+      "galeria": true,
+      "alt": "Pescador dentro del agua, a la altura de los tobillos, levanta una captura junto a su caña frente a un raudal que se extiende de lado a lado del río.",
+      "pie": "Pesca a pie al borde del raudal."
+    },
+    {
+      "id": "playa-aguas-bajas",
+      "archivo": "7.jpg",
+      "rol": "temporada",
+      "galeria": true,
+      "alt": "Playa de arena blanca descubierta por el descenso del río, con un raudal de fondo, selva en la ribera opuesta y una embarcación de madera cargada sobre la arena.",
+      "pie": "Cuando el río baja, aparecen las playas de arena blanca."
+    },
+    {
+      "id": "infografia-especies",
+      "archivo": "11.jpg",
+      "rol": "infografia",
+      "galeria": false,
+      "alt": "Infografía titulada «Especies a pescar en Caño Bocón», con ilustraciones de diez peces numerados y sus nombres común y científico: pavón cinchado, pavón mariposo, pavón pintalapa, payara, yamú o bocón, cachama, bagre rayado, piraña, agujeto y moncholo o guabina.",
+      "pie": "Infografía aportada por el operador local. Las fichas de esta página corrigen y amplían lo que aparece en ella."
+    }
+  ]
+}

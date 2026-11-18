@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pesca en Inírida">
+  <rect width="64" height="64" rx="13" fill="#140d06"/>
+  <g fill="none" stroke="#f4ead9" stroke-width="4.2" stroke-linecap="round">
+    <path d="M9 15c9 5 15 12 20 21" opacity=".9"/>
+    <path d="M9 52c9-5 15-12 20-21" opacity=".62"/>
+    <path d="M33 33h21" opacity=".4"/>
+  </g>
+  <circle cx="30.5" cy="33" r="7.5" fill="#e9a224"/>
+  <circle cx="30.5" cy="33" r="3.1" fill="#bc3117"/>
+</svg>

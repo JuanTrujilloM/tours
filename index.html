@@ -1,0 +1,1591 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      El título del sitio, el número de contacto y la URL base viven en
+      data/sitio.json. Para cambiarlos, edita ese archivo y corre:
+          npm run configurar
+      No los edites a mano aquí: el script los reemplaza en todos los archivos.
+    -->
+    <title>Pesca en Inírida — salidas de pesca en el Guainía, Colombia</title>
+    <meta
+      name="description"
+      content="Guía informativa sobre las salidas de pesca en Puerto Inírida y la Estrella Fluvial de Inírida: dónde se pesca, qué especies hay, el ciclo de aguas altas y bajas, la normativa vigente de pesca de turismo y el respeto al territorio indígena."
+    />
+    <link rel="canonical" href="https://juantrujillom.github.io/tours/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:site_name" content="Pesca en Inírida" />
+    <meta property="og:title" content="Pesca en Inírida — salidas de pesca en el Guainía" />
+    <meta
+      property="og:description"
+      content="Dónde se pesca, qué especies hay, cuándo baja el río y qué dice la ley hoy sobre la pesca de turismo en la Estrella Fluvial de Inírida."
+    />
+    <meta property="og:url" content="https://juantrujillom.github.io/tours/" />
+    <meta
+      property="og:image"
+      content="https://juantrujillom.github.io/tours/assets/img/playa-aguas-bajas-1080.jpg"
+    />
+    <meta property="og:image:width" content="1080" />
+    <meta property="og:image:height" content="482" />
+    <meta
+      property="og:image:alt"
+      content="Playa de arena blanca descubierta por el descenso del río, con un raudal de fondo y selva en la ribera opuesta."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pesca en Inírida — salidas de pesca en el Guainía" />
+    <meta
+      name="twitter:description"
+      content="Dónde se pesca, qué especies hay, cuándo baja el río y qué dice la ley hoy sobre la pesca de turismo en la Estrella Fluvial de Inírida."
+    />
+    <meta
+      name="twitter:image"
+      content="https://juantrujillom.github.io/tours/assets/img/playa-aguas-bajas-1080.jpg"
+    />
+
+    <meta name="theme-color" content="#100a05" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/fraunces-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/publicsans-latin.woff2" crossorigin />
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      href="assets/img/pavon-cinchado-rio-960.webp"
+      imagesrcset="assets/img/pavon-cinchado-rio-480.webp 480w, assets/img/pavon-cinchado-rio-960.webp 960w, assets/img/pavon-cinchado-rio-1070.webp 1070w"
+      imagesizes="(min-width: 52rem) 46vw, calc(100vw - 2rem)"
+      fetchpriority="high"
+    />
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+  </head>
+
+  <body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <!-- ===================== CABECERA ===================== -->
+    <header class="sitio-cabecera">
+      <div class="contenedor sitio-cabecera__fila">
+        <a class="marca" href="#inicio">
+          <!-- Tres ríos que convergen: el gesto de la Estrella Fluvial -->
+          <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+              <path d="M3 6c5 3 8 7 11 11" />
+              <path d="M3 26c5-3 8-7 11-11" opacity=".72" />
+              <path d="M16 17h13" opacity=".5" />
+            </g>
+            <circle cx="15" cy="17" r="3.4" fill="#e9a224" />
+          </svg>
+          <span>Pesca en Inírida</span>
+        </a>
+
+        <nav class="nav-principal" aria-label="Secciones del sitio">
+          <ul>
+            <li><a href="#destino">Destino</a></li>
+            <li><a href="#lugares">Dónde pescar</a></li>
+            <li><a href="#especies">Especies</a></li>
+            <li><a href="#rio">Temporadas</a></li>
+            <li><a href="#normativa">Normativa</a></li>
+            <li><a href="#territorio">Territorio</a></li>
+            <li><a href="#llegar">Cómo llegar</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <!-- ===================== HERO ===================== -->
+      <section class="hero" id="inicio">
+        <svg class="hero__textura" aria-hidden="true" focusable="false" preserveAspectRatio="none">
+          <defs>
+            <pattern id="corriente" width="180" height="56" patternUnits="userSpaceOnUse">
+              <path
+                d="M0 28c22-18 44-18 66 0s44 18 66 0 44-18 48 0"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.1"
+                opacity=".55"
+              />
+              <path
+                d="M-20 50c22-12 44-12 66 0s44 12 66 0 44-12 88 0"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="0.8"
+                opacity=".3"
+              />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#corriente)" />
+        </svg>
+
+        <div class="contenedor hero__rejilla">
+          <div>
+            <p class="rotulo" style="--banda-tenue: #bca98c">Puerto Inírida · Guainía · Colombia</p>
+            <h1 class="hero__titulo">
+              Pesca en Inírida
+              <em>donde tres ríos hacen una estrella</em>
+            </h1>
+            <p class="hero__bajada">
+              Salidas de pesca en la Estrella Fluvial de Inírida, el humedal donde el Guaviare, el
+              Inírida y el Atabapo se juntan para formar el Orinoco. Esta página reúne información
+              verificada sobre el destino, sus peces, su calendario de aguas y las reglas que hoy
+              rigen la pesca de turismo.
+            </p>
+
+            <div class="botonera">
+              <a
+                class="boton boton--wa"
+                href="https://wa.me/573124420951?text=Hola%2C%20vi%20la%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n%20sobre%20las%20salidas%20de%20pesca%20en%20In%C3%ADrida"
+                rel="noopener"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path
+                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.84-.85 2.04s.87 2.37.99 2.53c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29Z"
+                  />
+                </svg>
+                Escribir por WhatsApp
+              </a>
+              <a class="boton boton--llamada" href="tel:+573124420951">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path
+                    d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"
+                  />
+                </svg>
+                Llamar
+              </a>
+            </div>
+
+            <div class="hero__datos">
+              <p class="hero__dato">
+                <b>250.000+</b>
+                <span>hectáreas del sitio Ramsar, designado en julio de 2014</span>
+              </p>
+              <p class="hero__dato">
+                <b>3 ríos</b>
+                <span>Guaviare, Inírida y Atabapo, con aguas de colores distintos</span>
+              </p>
+              <p class="hero__dato">
+                <b>12–14 m</b>
+                <span>sube y baja el nivel del río entre invierno y verano</span>
+              </p>
+            </div>
+          </div>
+
+          <figure class="hero__figura">
+            <picture>
+              <source
+                type="image/webp"
+                srcset="
+                  assets/img/pavon-cinchado-rio-480.webp   480w,
+                  assets/img/pavon-cinchado-rio-960.webp   960w,
+                  assets/img/pavon-cinchado-rio-1070.webp 1070w
+                "
+                sizes="(min-width: 52rem) 46vw, calc(100vw - 2rem)"
+              />
+              <img
+                src="assets/img/pavon-cinchado-rio-960.jpg"
+                srcset="
+                  assets/img/pavon-cinchado-rio-480.jpg   480w,
+                  assets/img/pavon-cinchado-rio-960.jpg   960w,
+                  assets/img/pavon-cinchado-rio-1070.jpg 1070w
+                "
+                sizes="(min-width: 52rem) 46vw, calc(100vw - 2rem)"
+                width="1070"
+                height="1427"
+                fetchpriority="high"
+                decoding="async"
+                alt="Pescador sostiene un pavón cinchado adulto de librea verde oliva y amarilla con barras oscuras, a bordo de una embarcación sobre un río de aguas negras rodeado de selva."
+              />
+            </picture>
+            <figcaption>
+              Pavón cinchado (<i>Cichla temensis</i>) en el patrón barrado, el que los estudios
+              asocian a la condición reproductiva.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ===================== EL DESTINO ===================== -->
+      <section class="banda banda--media" id="destino" aria-labelledby="t-destino">
+        <div class="contenedor">
+          <p class="rotulo">El destino</p>
+          <h2 class="titulo-seccion" id="t-destino">Un humedal donde se encuentran tres aguas distintas</h2>
+
+          <div class="revelar">
+            <div class="prosa sin-margen-final">
+              <p class="entradilla">
+                La Estrella Fluvial de Inírida es el punto donde los ríos Guaviare, Inírida y Atabapo
+                confluyen antes de formar el Orinoco. Fue declarada sitio Ramsar de importancia
+                internacional el 8 de julio de 2014.
+              </p>
+              <p>
+                Lo que hace singular al lugar no es solo la confluencia, sino que cada río llega con
+                una química y un color propios. Los ríos de la región drenan el Escudo de Guayana,
+                cuyas rocas antiguas resisten la meteorización; por eso aportan muy pocos sedimentos
+                y sus aguas negras tienen una conductividad eléctrica bajísima, por debajo de los
+                10&nbsp;µS/cm.
+              </p>
+              <p>
+                Esa mezcla sostiene una fauna acuática notable. El Plan de Manejo del sitio reporta
+                476 especies de peces, cerca de la mitad de las registradas en toda la cuenca del
+                Orinoco, de las cuales 108 hacen parte de la dieta local; otras publicaciones hablan
+                de 364 especies, equivalentes al 37&nbsp;% de la cuenca. En cualquiera de los dos
+                conteos, es uno de los lugares con más peces de agua dulce del país.
+              </p>
+            </div>
+
+            <div>
+              <ul class="tarjetas-agua tarjetas-agua--sueltas">
+                <li class="tarjeta-agua">
+                  <div
+                    class="tarjeta-agua__muestra"
+                    style="background: linear-gradient(135deg, #a9814a, #c9a06a)"
+                    aria-hidden="true"
+                  ></div>
+                  <h3>Aguas blancas</h3>
+                  <p>
+                    <b>Río Guaviare.</b> Nace en la cordillera andina y baja cargado de sedimentos
+                    ocres, con un pH cercano a 6.
+                  </p>
+                </li>
+                <li class="tarjeta-agua">
+                  <div
+                    class="tarjeta-agua__muestra"
+                    style="background: linear-gradient(135deg, #2b1a0d, #5a3a1c)"
+                    aria-hidden="true"
+                  ></div>
+                  <h3>Aguas negras</h3>
+                  <p>
+                    <b>Río Atabapo.</b> Aguas muy oscuras, color de té cargado. El color viene de
+                    compuestos orgánicos como los taninos, y el pH ronda 5.
+                  </p>
+                </li>
+                <li class="tarjeta-agua">
+                  <div
+                    class="tarjeta-agua__muestra"
+                    style="background: linear-gradient(135deg, #3b2a16, #7a6a3c)"
+                    aria-hidden="true"
+                  ></div>
+                  <h3>Entre negras y claras</h3>
+                  <p>
+                    <b>Río Inírida.</b> Las fuentes no coinciden: unas lo describen de aguas oscuras
+                    pero translúcidas, otras hablan de aguas claras y negras según el tramo.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== DÓNDE SE PESCA ===================== -->
+      <section class="banda banda--te" id="lugares" aria-labelledby="t-lugares">
+        <div class="contenedor">
+          <p class="rotulo">Dónde se pesca</p>
+          <h2 class="titulo-seccion" id="t-lugares">Los caños, los raudales y las playas</h2>
+          <p class="entradilla prosa">
+            Todos estos lugares quedan dentro o en el borde del sitio Ramsar, y casi todos están en
+            territorio de resguardos indígenas. Se llega a ellos únicamente por río.
+          </p>
+
+          <ul class="lugares revelar">
+            <li class="lugar lugar--destacado">
+              <h3>Caño Bocón</h3>
+              <div class="sin-margen-final">
+                <p>
+                  Es un afluente del río Inírida, dentro de la Estrella Fluvial. A sus orillas está
+                  Barranco Tigre, un poblado puinave de unas 28 familias que vivió tradicionalmente
+                  de la agricultura y la pesca artesanal.
+                </p>
+                <p>
+                  Desde 2015 la comunidad construyó allí una oferta de turismo comunitario centrada
+                  en la pesca: la propia comunidad organizada administra los servicios y recibe
+                  directamente los ingresos. Es una actividad estacional, marcada por los ciclos del
+                  río.
+                </p>
+                <p>
+                  Un dato que conviene conocer antes de planear un viaje: la comunidad limita
+                  deliberadamente el número de visitantes a unas <b>200 personas al año</b>, una
+                  cifra que considera necesaria para no poner en riesgo su autonomía sobre el
+                  territorio. El aumento de embarcaciones también ha generado tensiones con
+                  comunidades situadas aguas abajo.
+                </p>
+              </div>
+            </li>
+
+            <li class="lugar">
+              <h3>Río Inírida y sus raudales</h3>
+              <p>
+                El Inírida corre entre raudales: una fuente cuenta catorce a lo largo del río, y un
+                relato de viaje describe cinco entre Puerto Inírida y el alto Caño Mina. El raudal
+                de Mavicure queda frente a la comunidad de Venado y a pocos metros de Remanso, donde
+                el río se estrecha entre rocas precámbricas.
+              </p>
+              <p>
+                La alcaldía advierte que en verano ese raudal se vuelve innavegable por lo peligroso
+                de su caudal. En esa misma época seca aparecen en las orillas las playas de arena
+                muy blanca.
+              </p>
+            </li>
+
+            <li class="lugar">
+              <h3>Río Atabapo</h3>
+              <p>
+                Río de aguas negras que confluye en la Estrella Fluvial. La resolución pesquera del
+                sitio Ramsar nombra allí lugares como Playa Blanca, Caño Raya y Chaquita.
+              </p>
+            </li>
+
+            <li class="lugar">
+              <h3>Río Guaviare</h3>
+              <p>
+                Aguas blancas de origen andino. Se une al Inírida a unos 25&nbsp;km de su
+                desembocadura al Orinoco. La misma resolución nombra en su curso sitios como Laguna
+                Negra, Veraniego, San Luis, Carrizal y Coco Viejo.
+              </p>
+            </li>
+
+            <li class="lugar">
+              <h3>Qué hay alrededor</h3>
+              <p>
+                Los Cerros de Mavecure, tres monolitos de granito de más de mil millones de años
+                sobre el río Inírida, a unos 50&nbsp;km de Puerto Inírida. Son lugar sagrado para
+                las comunidades de Remanso y Venado. También la Laguna de la Bruja, a unos diez
+                minutos en lancha desde Inírida, donde se pueden ver toninas.
+              </p>
+            </li>
+          </ul>
+
+          <figure class="sangre revelar">
+            <picture>
+              <source
+                type="image/webp"
+                srcset="
+                  assets/img/raudal-barra-arena-480.webp   480w,
+                  assets/img/raudal-barra-arena-960.webp   960w,
+                  assets/img/raudal-barra-arena-1078.webp 1078w
+                "
+                sizes="100vw"
+              />
+              <img
+                src="assets/img/raudal-barra-arena-960.jpg"
+                srcset="
+                  assets/img/raudal-barra-arena-480.jpg   480w,
+                  assets/img/raudal-barra-arena-960.jpg   960w,
+                  assets/img/raudal-barra-arena-1078.jpg 1078w
+                "
+                sizes="100vw"
+                width="1078"
+                height="498"
+                loading="lazy"
+                decoding="async"
+                alt="Pescador de pie sobre una barra de arena blanca con una captura en la mano; detrás, un raudal de aguas revueltas corre entre lajas de roca y una embarcación de madera espera varada en la orilla."
+              />
+            </picture>
+            <figcaption>
+              Barras de arena y raudales sobre el río, en temporada de aguas bajas.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ===================== ESPECIES ===================== -->
+      <section class="banda" id="especies" aria-labelledby="t-especies">
+        <div class="contenedor">
+          <p class="rotulo">Especies</p>
+          <h2 class="titulo-seccion" id="t-especies">Qué peces hay y cómo reconocerlos</h2>
+          <p class="entradilla prosa">
+            Estas fichas recogen solo lo que pudimos confirmar en literatura científica o en fuentes
+            oficiales. Donde las fuentes no alcanzan, lo decimos.
+          </p>
+
+          <ul class="especies revelar">
+            <li class="ficha">
+              <div class="ficha__cuerpo">
+                <h3>Pavón cinchado</h3>
+                <p class="ficha__cientifico">Cichla temensis</p>
+                <dl>
+                  <dt>Cómo se ve</dt>
+                  <dd>
+                    Alterna dos libreas: una con tres barras oscuras y colores encendidos, y otra
+                    moteada con hileras de puntos claros.
+                  </dd>
+                  <dt>Color</dt>
+                  <dd>
+                    Las aletas ventrales, la anal y la mitad inferior de la caudal suelen ser
+                    naranja, naranja rojizo o rojas, y su intensidad es máxima en el período
+                    reproductivo.
+                  </dd>
+                  <dt>Conducta</dt>
+                  <dd>
+                    Forma parejas reproductoras que cuidan el nido, los huevos y los alevines
+                    durante períodos prolongados.
+                  </dd>
+                </dl>
+              </div>
+            </li>
+
+            <li class="ficha">
+              <div class="ficha__cuerpo">
+                <h3>Pavón mariposo</h3>
+                <p class="ficha__cientifico">Cichla orinocensis</p>
+                <dl>
+                  <dt>Cómo se ve</dt>
+                  <dd>
+                    Tres manchas oscuras grandes con borde dorado en el costado, más una cuarta en
+                    la cola, y sin marcas oscuras en el opérculo.
+                  </dd>
+                  <dt>Dónde está</dt>
+                  <dd>
+                    Cuencas del Negro y el Orinoco. Prefiere aguas de poca corriente: en lluvias
+                    ocupa las grandes lagunas y en la seca baja al curso principal.
+                  </dd>
+                  <dt>Qué come</dt>
+                  <dd>
+                    Es carnívoro: peces pequeños y, en menor medida, crustáceos. Llega a unos
+                    62&nbsp;cm de longitud estándar.
+                  </dd>
+                </dl>
+              </div>
+            </li>
+
+            <li class="ficha">
+              <div class="ficha__cuerpo">
+                <h3>Payara</h3>
+                <p class="ficha__cientifico">Hydrolycus armatus</p>
+                <dl>
+                  <dt>Cómo se ve</dt>
+                  <dd>
+                    Plateada, con dos colmillos largos en la mandíbula inferior. En adultos, la base
+                    de la caudal y la anal son amarillentas y la parte distal negruzca, con un borde
+                    blanco estrecho en la punta: ese detalle la separa del resto del género.
+                  </dd>
+                  <dt>Tamaño</dt>
+                  <dd>
+                    El máximo típico reportado es 89&nbsp;cm, con registros de hasta 95&nbsp;cm en
+                    Venezuela y más de un metro en Brasil. Peso habitual hasta 8,5&nbsp;kg.
+                  </dd>
+                  <dt>Ojo</dt>
+                  <dd>Se confunde con frecuencia con <i>H. scomberoides</i>, más pequeña.</dd>
+                </dl>
+              </div>
+            </li>
+
+            <li class="ficha">
+              <div class="ficha__cuerpo">
+                <h3>Cachama blanca</h3>
+                <p class="ficha__cientifico">Piaractus brachypomus</p>
+                <dl>
+                  <dt>Dónde está</dt>
+                  <dd>
+                    Nativa de los ríos de llanura de inundación de las cuencas del Amazonas y el
+                    Orinoco.
+                  </dd>
+                  <dt>Qué come</dt>
+                  <dd>
+                    En sus poblaciones nativas es principalmente frugívora: frutas y semillas,
+                    plantas e invertebrados terrestres. Vive atenta a lo que cae del bosque
+                    inundado.
+                  </dd>
+                </dl>
+              </div>
+            </li>
+
+            <li class="ficha">
+              <div class="ficha__cuerpo">
+                <h3>Moncholo o guabina</h3>
+                <p class="ficha__cientifico">Hoplias malabaricus</p>
+                <dl>
+                  <dt>Cómo se ve</dt>
+                  <dd>
+                    Cuerpo cilíndrico, boca grande con dientes prominentes y, a diferencia de muchos
+                    peces de la zona, sin aleta adiposa.
+                  </dd>
+                  <dt>Dónde está</dt>
+                  <dd>
+                    Amplia distribución, incluida la cuenca del Orinoco. Habita aguas quietas de
+                    lagunas, ríos y embalses.
+                  </dd>
+                  <dt>Nota</dt>
+                  <dd>
+                    Su taxonomía no está resuelta: el trabajo genético reciente sugiere que el
+                    nombre cubre un complejo de varias especies.
+                  </dd>
+                </dl>
+              </div>
+            </li>
+
+            <li class="ficha">
+              <div class="ficha__cuerpo">
+                <span class="etiqueta etiqueta--calma">Sin ficha completa</span>
+                <h3>Otras especies de la zona</h3>
+                <p class="ficha__nota">
+                  La resolución pesquera del sitio Ramsar lista como especies más abundantes el
+                  caribe, el bocachico, el pámpano, la palometa, el chancleto, el pavón, el cabeza
+                  palo, la guabina y la payarita.
+                </p>
+                <p class="ficha__nota">
+                  El yamú o bocón (<i>Brycon</i>&nbsp;sp.), el agujeto
+                  (<i>Boulengerella</i>&nbsp;sp.) y la piraña (<i>Pygocentrus cariba</i>) aparecen en
+                  la infografía local, pero no encontramos fuentes suficientes para describirlos con
+                  rigor, así que preferimos no inventarlo.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="aviso revelar">
+            <h3>Sobre el bagre rayado</h3>
+            <p>
+              El bagre rayado aparece en la infografía local, pero es una especie sujeta a vedas
+              nacionales de la AUNAP y no encontramos una ficha verificable para la variedad del
+              Orinoco. Por eso no lo presentamos como especie objetivo de una salida.
+            </p>
+          </div>
+
+          <!-- Aclaración sobre el "pintalapa" -->
+          <div class="aclaracion revelar">
+            <h3>El «pintalapa» no es la cría del cinchado</h3>
+            <div class="desfase">
+              <div class="prosa sin-margen-final">
+                <p>
+                  En la zona se habla del pavón cinchado y del pavón «pintalapa» o «paca» como si
+                  fueran dos peces, y a veces se dice que el segundo es el juvenil del primero. Los
+                  estudios dicen otra cosa.
+                </p>
+                <p>
+                  Son <b>la misma especie</b>, <i>Cichla temensis</i>, en dos momentos de su ciclo
+                  reproductivo. Las variantes no difieren en caracteres morfométricos ni tienen
+                  marcadores moleculares que las separen, y tampoco corresponden al sexo: machos y
+                  hembras recorren la misma progresión de color.
+                </p>
+                <p>
+                  Que no es un estadio juvenil quedó claro al medir los ejemplares: se capturaron
+                  individuos moteados adultos de todas las tallas por encima de los 300&nbsp;mm,
+                  incluidos los más grandes, y las hembras moteadas tenían los ovarios inmaduros. El
+                  índice gonadosomático aumenta a medida que avanza la coloración, y solo se observó
+                  desovando o cuidando alevines a los ejemplares con el patrón barrado.
+                </p>
+                <p>
+                  Dicho corto: el patrón de puntos corresponde a peces en reposo reproductivo, y las
+                  tres franjas con los colores encendidos aparecen cuando el pez entra en condición
+                  de desove. El patrón barrado predomina además en las aguas más bajas, y el
+                  moteado en las más altas.
+                </p>
+              </div>
+
+              <figure style="margin: 0">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="
+                      assets/img/pavon-paca-playa-480.webp 480w,
+                      assets/img/pavon-paca-playa-540.webp 540w
+                    "
+                    sizes="(min-width: 54rem) 44vw, calc(100vw - 2rem)"
+                  />
+                  <img
+                    src="assets/img/pavon-paca-playa-540.jpg"
+                    srcset="
+                      assets/img/pavon-paca-playa-480.jpg 480w,
+                      assets/img/pavon-paca-playa-540.jpg 540w
+                    "
+                    sizes="(min-width: 54rem) 44vw, calc(100vw - 2rem)"
+                    width="540"
+                    height="1036"
+                    loading="lazy"
+                    decoding="async"
+                    style="border-radius: 10px"
+                    alt="Pescador sostiene un pavón con hileras de puntos claros sobre el cuerpo, de pie en una playa de arena junto a un río de aguas oscuras, con la caña de pescar apoyada en primer plano."
+                  />
+                </picture>
+                <figcaption
+                  style="margin-top: 0.75rem; font-size: 0.875rem; line-height: 1.5; color: var(--banda-tenue)"
+                >
+                  El mismo <i>Cichla temensis</i> en el patrón moteado. Compáralo con la foto de
+                  portada, donde el patrón es barrado.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Infografía -->
+          <figure class="infografia revelar">
+            <button
+              type="button"
+              class="infografia__boton"
+              data-visor="infografia-especies"
+              aria-label="Ampliar la infografía de especies de Caño Bocón"
+            >
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="
+                    assets/img/infografia-especies-480.webp   480w,
+                    assets/img/infografia-especies-960.webp   960w,
+                    assets/img/infografia-especies-1080.webp 1080w
+                  "
+                  sizes="(min-width: 75rem) 1180px, calc(100vw - 2rem)"
+                />
+                <img
+                  src="assets/img/infografia-especies-960.jpg"
+                  srcset="
+                    assets/img/infografia-especies-480.jpg   480w,
+                    assets/img/infografia-especies-960.jpg   960w,
+                    assets/img/infografia-especies-1080.jpg 1080w
+                  "
+                  sizes="(min-width: 75rem) 1180px, calc(100vw - 2rem)"
+                  width="1080"
+                  height="720"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Infografía titulada «Especies a pescar en Caño Bocón», con ilustraciones de diez peces numerados y sus nombres común y científico: pavón cinchado, pavón mariposo, pavón pintalapa, payara, yamú o bocón, cachama, bagre rayado, piraña, agujeto y moncholo o guabina."
+                />
+              </picture>
+            </button>
+            <figcaption>
+              Infografía aportada por el operador local; toca la imagen para ampliarla. Ten en
+              cuenta que su descripción del «pintalapa» como juvenil del cinchado no coincide con la
+              literatura científica, como explicamos arriba.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ===================== EL CICLO DEL RÍO ===================== -->
+      <section class="banda banda--granito" id="rio" aria-labelledby="t-rio">
+        <div class="contenedor">
+          <p class="rotulo">El ciclo del río</p>
+          <h2 class="titulo-seccion" id="t-rio">Aguas altas y aguas bajas</h2>
+          <p class="entradilla prosa">
+            Aquí el año no se mide en estaciones sino en metros de río. Entre el verano y el
+            invierno el nivel puede variar entre 12 y 14 metros, y eso lo cambia todo: dónde están
+            los peces, por dónde se navega y si hay playa o no.
+          </p>
+
+          <figure class="rio-calendario revelar" style="margin: var(--paso-4) 0 0">
+            <svg
+              class="rio-grafico"
+              viewBox="0 0 1000 320"
+              role="img"
+              aria-label="Gráfico esquemático del nivel del río a lo largo del año: el nivel es mínimo en marzo, sube de abril a junio, alcanza el máximo en agosto, y desciende de septiembre a diciembre. Entre el 6 de abril y el 31 de mayo de 2026 rige una veda de pesca en la Orinoquía."
+            >
+              <defs>
+                <linearGradient id="relleno-rio" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#e9a224" stop-opacity="0.42" />
+                  <stop offset="100%" stop-color="#e9a224" stop-opacity="0.04" />
+                </linearGradient>
+                <pattern id="trama-veda" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                  <rect width="8" height="8" fill="rgba(188,49,23,.22)" />
+                  <line x1="0" y1="0" x2="0" y2="8" stroke="#bc3117" stroke-width="3" opacity=".55" />
+                </pattern>
+              </defs>
+
+              <!-- Franjas de contexto -->
+              <rect x="40" y="30" width="235" height="246" fill="rgba(233,162,36,.10)" />
+              <rect x="510" y="30" width="157" height="246" fill="rgba(78,138,98,.14)" />
+
+              <text x="157" y="52" text-anchor="middle" fill="#e9a224" font-size="17" font-weight="700">
+                Aguas bajas
+              </text>
+              <text x="556" y="52" text-anchor="middle" fill="#9fd6ae" font-size="17" font-weight="700">
+                Aguas altas
+              </text>
+
+              <!-- Veda -->
+              <rect x="288" y="30" width="144" height="246" fill="url(#trama-veda)" />
+              <text x="360" y="52" text-anchor="middle" fill="#ff9c86" font-size="15" font-weight="700">
+                Veda
+              </text>
+
+              <!-- Eje -->
+              <line x1="40" y1="276" x2="980" y2="276" stroke="currentColor" stroke-width="1.5" opacity=".45" />
+
+              <!-- Área bajo la curva -->
+              <polygon
+                fill="url(#relleno-rio)"
+                points="79,234 158,252 236,264 314,205 393,146 471,87 549,52 628,40 706,75 784,123 863,170 941,205 941,276 79,276"
+              />
+              <!-- Curva -->
+              <polyline
+                fill="none"
+                stroke="#e9a224"
+                stroke-width="3.5"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+                points="79,234 158,252 236,264 314,205 393,146 471,87 549,52 628,40 706,75 784,123 863,170 941,205"
+              />
+
+              <!-- Puntos extremos -->
+              <circle cx="236" cy="264" r="7" fill="#e9a224" />
+              <circle cx="628" cy="40" r="7" fill="#9fd6ae" />
+              <text x="236" y="291" text-anchor="middle" fill="#e9a224" font-size="13" font-weight="700">mínimo</text>
+              <text x="676" y="36" text-anchor="start" fill="#9fd6ae" font-size="13" font-weight="700">máximo</text>
+
+              <!-- Meses -->
+              <g fill="currentColor" font-size="15" text-anchor="middle" opacity=".92">
+                <text x="79" y="310">Ene</text>
+                <text x="158" y="310">Feb</text>
+                <text x="236" y="310">Mar</text>
+                <text x="314" y="310">Abr</text>
+                <text x="393" y="310">May</text>
+                <text x="471" y="310">Jun</text>
+                <text x="549" y="310">Jul</text>
+                <text x="628" y="310">Ago</text>
+                <text x="706" y="310">Sep</text>
+                <text x="784" y="310">Oct</text>
+                <text x="863" y="310">Nov</text>
+                <text x="941" y="310">Dic</text>
+              </g>
+            </svg>
+
+            <ul class="rio-leyenda">
+              <li>
+                <span class="punto" style="background: rgba(233, 162, 36, 0.4)"></span>
+                Aguas bajas (enero a marzo)
+              </li>
+              <li>
+                <span class="punto" style="background: rgba(78, 138, 98, 0.5)"></span>
+                Aguas altas (julio a agosto)
+              </li>
+              <li>
+                <span class="punto" style="background: #bc3117"></span>
+                Veda vigente en 2026 (6 de abril al 31 de mayo)
+              </li>
+            </ul>
+
+            <figcaption
+              style="margin-top: var(--paso-2); font-size: 0.875rem; line-height: 1.55; color: var(--banda-tenue); max-width: 72ch"
+            >
+              Esquema dibujado a partir de las fases descritas por Ramírez-Gil y Ajiaco-Martínez
+              (2001) y de los datos de caudal y lluvia citados en los estudios de la Estrella
+              Fluvial. No representa mediciones de un año concreto: sirve para entender la forma del
+              ciclo, no para predecir niveles.
+            </figcaption>
+          </figure>
+
+          <ul class="fases revelar">
+            <li class="fase fase--baja">
+              <b>Aguas bajas</b>
+              <span>Enero a marzo. El caudal toca su mínimo en marzo, después del mes menos lluvioso, enero.</span>
+            </li>
+            <li class="fase">
+              <b>Aguas ascendentes</b>
+              <span>Abril a junio. Las lluvias arrancan hacia marzo y se intensifican a mitad de año.</span>
+            </li>
+            <li class="fase">
+              <b>Aguas altas</b>
+              <span>Julio a agosto. El caudal máximo se registra hacia agosto.</span>
+            </li>
+            <li class="fase">
+              <b>Aguas descendentes</b>
+              <span>Septiembre a diciembre. El río se retira y las playas vuelven a aparecer.</span>
+            </li>
+          </ul>
+
+          <div class="prosa revelar" style="margin-top: var(--paso-4)">
+            <h3 style="font-size: clamp(1.3rem, 1.15rem + 0.7vw, 1.75rem); margin-bottom: var(--paso-2)">
+              Por qué importa para la pesca
+            </h3>
+            <p>
+              Cuando el agua baja, el espacio disponible se reduce y los peces se concentran: el
+              pavón mariposo, por ejemplo, pasa de las grandes lagunas que se forman en lluvias al
+              curso principal de los ríos durante la seca. En el pavón cinchado, el patrón barrado
+              —el de los ejemplares en condición reproductiva— predomina justamente en las aguas más
+              bajas. Y es en esa época cuando se descubren las playas de arena blanca desde las que
+              se pesca a pie.
+            </p>
+            <p class="sin-margen-final">
+              No publicamos «la mejor fecha» como si fuera un dato duro. Las fuentes consultadas
+              difieren entre sí, el régimen de lluvias cambia de un año a otro, y además hay una
+              veda que ocupa parte del período de aguas ascendentes.
+            </p>
+          </div>
+        </div>
+
+        <figure class="sangre revelar" style="margin-bottom: 0">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                assets/img/playa-aguas-bajas-480.webp   480w,
+                assets/img/playa-aguas-bajas-960.webp   960w,
+                assets/img/playa-aguas-bajas-1080.webp 1080w
+              "
+              sizes="100vw"
+            />
+            <img
+              src="assets/img/playa-aguas-bajas-960.jpg"
+              srcset="
+                assets/img/playa-aguas-bajas-480.jpg   480w,
+                assets/img/playa-aguas-bajas-960.jpg   960w,
+                assets/img/playa-aguas-bajas-1080.jpg 1080w
+              "
+              sizes="100vw"
+              width="1080"
+              height="482"
+              loading="lazy"
+              decoding="async"
+              alt="Playa de arena blanca descubierta por el descenso del río, con un raudal de fondo, selva en la ribera opuesta y una embarcación de madera cargada sobre la arena."
+            />
+          </picture>
+          <figcaption>Cuando el río baja, aparecen las playas de arena blanca.</figcaption>
+        </figure>
+      </section>
+
+      <!-- ===================== NORMATIVA ===================== -->
+      <section class="banda" id="normativa" aria-labelledby="t-normativa">
+        <div class="contenedor">
+          <p class="rotulo">Pesca responsable y normativa</p>
+          <h2 class="titulo-seccion" id="t-normativa">Qué dice la ley hoy</h2>
+
+          <p class="sello-verificado">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+              <path
+                d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Zm-1 14-4-4 1.4-1.4L11 13.2l4.6-4.6L17 10l-6 6Z"
+              />
+            </svg>
+            Información verificada el 17 de noviembre de 2026
+          </p>
+
+          <p class="entradilla prosa">
+            El marco legal de la pesca recreativa en Colombia cambió. Esta sección resume lo que
+            encontramos en fuentes oficiales y enlaza cada norma para que puedas leerla directamente.
+            No es asesoría legal.
+          </p>
+
+          <ol class="norma revelar">
+            <li>
+              <h3>La Corte Constitucional retiró la «pesca deportiva» del ordenamiento</h3>
+              <p>
+                La <a href="https://www.corteconstitucional.gov.co/relatoria/2022/C-148-22.htm" rel="noopener">Sentencia
+                C-148 de 2022</a>, del 27 de abril de 2022, declaró inexequibles el numeral 4 del
+                artículo 273 del Decreto Ley 2811 de 1974 y el literal c) del numeral 2 del artículo
+                8 de la Ley 13 de 1990. La Corte difirió los efectos por un año desde la
+                notificación.
+              </p>
+              <p>
+                El argumento: el deber constitucional de protección animal y el reconocimiento de los
+                animales como seres sintientes. Una definición legal cuya única finalidad sea la
+                diversión humana resulta incompatible con el mandato de bienestar animal.
+              </p>
+            </li>
+
+            <li>
+              <h3>La Ley 2501 de 2025 creó la «pesca de turismo»</h3>
+              <p>
+                Sancionada el 28 de julio de 2025, la
+                <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=261716" rel="noopener">Ley
+                2501 de 2025</a> crea la pesca de turismo como categoría adicional de pesca. Entre
+                sus principios están el aprovechamiento sustentable, la sostenibilidad y un enfoque
+                étnico y territorial.
+              </p>
+              <p>
+                Su artículo 11 establece que quienes exploten económicamente la pesca de turismo
+                —personas, comunidades organizadas y operadores— necesitan permiso de la AUNAP. El
+                artículo 6 prohíbe practicarla en las zonas excluidas por la autoridad competente, y
+                el artículo 3 protege expresamente la pesca de subsistencia de las comunidades
+                indígenas, afrodescendientes y campesinas.
+              </p>
+            </li>
+
+            <li>
+              <h3>La reglamentación sigue pendiente</h3>
+              <p>
+                La ley le dio al Ministerio de Agricultura, con apoyo de la AUNAP, un plazo de un año
+                para reglamentar artes, aparejos, cantidades, tallas mínimas, métodos, zonas
+                exclusivas, temporadas y especies permitidas; y al Ministerio de Comercio, Industria
+                y Turismo, seis meses para fijar las obligaciones de los prestadores turísticos.
+              </p>
+              <p>
+                Al 17 de noviembre de 2026, con ambos plazos ya vencidos, no encontramos publicada
+                esa reglamentación. Si vas a organizar una salida, lo sensato es confirmar los
+                requisitos vigentes directamente con la
+                <a href="https://www.aunap.gov.co" rel="noopener">AUNAP</a>.
+              </p>
+            </li>
+
+            <li>
+              <h3>La pesca en la Estrella Fluvial tiene su propia resolución</h3>
+              <p>
+                La
+                <a href="https://aunap.gov.co/download/resolucion-numero-2575-del-22-de-diciembre-de-2020/" rel="noopener">Resolución
+                AUNAP 2575 del 22 de diciembre de 2020</a> reglamenta la actividad pesquera en la
+                Estrella Fluvial Inírida. Nació de la preocupación por la captura de ejemplares por
+                debajo de las tallas mínimas, la disminución de las poblaciones y el uso de artes no
+                reglamentarios, y buscó sostenibilidad del recurso y gobernanza participativa.
+              </p>
+              <p>
+                Reconoce artes tradicionales indígenas —caucures y nasas, sagallas, arpones, arcos y
+                flechas— y restringe el uso de mallas: están prohibidas para pesca comercial en
+                muchos puntos del sitio Ramsar y se permiten para subsistencia en algunas comunidades
+                con ojo de malla superior a tres pulgadas. El incumplimiento se sanciona.
+              </p>
+            </li>
+
+            <li>
+              <h3>Hay veda en la Orinoquía, y Guainía está incluido</h3>
+              <p>
+                En 2026 la veda corrió del 6 de abril al 31 de mayo en los ríos de Arauca, Vichada,
+                Casanare, Meta, Guainía y Guaviare, con fundamento en la Resolución AUNAP 2663 de
+                2022. Cubre peces de consumo y ornamentales. Durante la veda no se permite la
+                captura, el transporte ni la comercialización; solo los pescadores de subsistencia
+                pueden pescar hasta cinco kilos, sin venderlos.
+              </p>
+            </li>
+          </ol>
+
+          <div class="aviso revelar">
+            <h3>Las fechas de veda cambian y las fuentes no coinciden</h3>
+            <p>
+              Para 2026 encontramos dos versiones: una nota del 6 de abril que fija el cierre el 31
+              de mayo, y un boletín de la AUNAP de septiembre que menciona veda de recursos
+              pesqueros de consumo en la Orinoquía hasta el 30 de junio. Las vedas se fijan por
+              resolución y se ajustan de un año a otro, así que verifica siempre las fechas vigentes
+              en <a href="https://www.aunap.gov.co" rel="noopener">aunap.gov.co</a> antes de
+              programar un viaje.
+            </p>
+          </div>
+
+          <div class="prosa revelar" style="margin-top: var(--paso-4)">
+            <h3 style="font-size: clamp(1.3rem, 1.15rem + 0.7vw, 1.75rem); margin-bottom: var(--paso-2)">
+              Cómo hablamos de esto
+            </h3>
+            <p class="sin-margen-final">
+              En esta página usamos «pesca de turismo» y «salidas de pesca», que es la terminología
+              legal vigente, y no «pesca deportiva». No describimos trámites ni damos asesoría
+              jurídica: enlazamos la fuente oficial para que cada quien la consulte.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== TERRITORIO ===================== -->
+      <section class="banda banda--selva" id="territorio" aria-labelledby="t-territorio">
+        <div class="contenedor">
+          <p class="rotulo">Territorio y comunidades</p>
+          <h2 class="titulo-seccion" id="t-territorio">La casa de alguien más</h2>
+
+          <div class="desfase revelar">
+            <div class="prosa sin-margen-final">
+              <p class="entradilla">
+                La Estrella Fluvial no es un área despoblada. Está habitada por pueblos curripaco,
+                puinave, sikuani, cubeo, piapoco, piaroa y tucano, con predominio de curripacos y
+                puinaves.
+              </p>
+              <p>
+                Según una lideresa citada por Mongabay, en el sitio viven 25 comunidades indígenas y
+                65 fincas campesinas. Otro reportaje habla de siete resguardos.
+              </p>
+              <p>
+                Desde el plan de manejo de 2014 funciona allí un monitoreo pesquero comunitario que
+                lleva ya unos doce años. Un equipo de unas treinta personas de las comunidades
+                registra, después de cada faena, la hora de salida, el tiempo en el sitio, el número
+                de peces capturados y sus especies. El Instituto SINCHI analiza los datos.
+              </p>
+              <p>
+                Ese trabajo tuvo un resultado concreto: entre 2014 y 2019, cinco años de registros le
+                permitieron a las comunidades demostrarle a la AUNAP que algunas vedas y tallas
+                mínimas estaban mal estipuladas, lo que llevó a ajustar la norma.
+              </p>
+              <p>
+                La gobernanza pasa por la Mesa Ramsar. Existen 25 acuerdos locales con 15
+                instituciones, que se elevaron a una resolución pesquera, y las comunidades
+                propusieron siete zonas de reserva. Entre las amenazas que señalan están la minería
+                informal desde los años ochenta, el narcotráfico y la pesca descontrolada.
+              </p>
+            </div>
+
+            <div>
+              <ul class="puntos" style="grid-template-columns: 1fr; margin-top: 0">
+                <li class="punto-item">
+                  <h3>
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                      <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Zm0 2.3 6.6 3.7-6.6 3.7L5.4 8 12 4.3Z" />
+                    </svg>
+                    Ir con guías de la comunidad
+                  </h3>
+                  <p>
+                    En Caño Bocón el turismo lo administra la propia comunidad organizada, que recibe
+                    directamente los ingresos. Esa es la figura que existe allí.
+                  </p>
+                </li>
+                <li class="punto-item">
+                  <h3>
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                      <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z" />
+                    </svg>
+                    Respetar el cupo
+                  </h3>
+                  <p>
+                    Barranco Tigre limita los visitantes a unos 200 al año para no perder autonomía
+                    sobre su territorio. No es un dato menor de logística: es una decisión política
+                    de la comunidad.
+                  </p>
+                </li>
+                <li class="punto-item">
+                  <h3>
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                      <path
+                        d="M3 14c3-3 6-3 9 0s6 3 9 0v3c-3 3-6 3-9 0s-6-3-9 0v-3Zm0-6c3-3 6-3 9 0s6 3 9 0v3c-3 3-6 3-9 0s-6-3-9 0V8Z"
+                      />
+                    </svg>
+                    La pesca de consumo va primero
+                  </h3>
+                  <p>
+                    La Ley 2501 de 2025 protege expresamente la pesca de subsistencia de las
+                    comunidades y prohíbe que las reglamentaciones la restrinjan. El turismo no pasa
+                    por encima de eso.
+                  </p>
+                </li>
+                <li class="punto-item">
+                  <h3>
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                      <path
+                        d="M12 3c-1 4-4 5-7 6 0 6 3 10 7 12 4-2 7-6 7-12-3-1-6-2-7-6Zm0 5.2c.9 1.6 2.3 2.5 4 3.1-.3 3.6-1.9 6.2-4 7.6-2.1-1.4-3.7-4-4-7.6 1.7-.6 3.1-1.5 4-3.1Z"
+                      />
+                    </svg>
+                    Zonas de reserva y vedas
+                  </h3>
+                  <p>
+                    Hay siete zonas de reserva propuestas por las comunidades y vedas fijadas por
+                    resolución. Preguntar antes de echar la línea no es un trámite: es la diferencia
+                    entre un visitante y un problema.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CÓMO LLEGAR ===================== -->
+      <section class="banda banda--media" id="llegar" aria-labelledby="t-llegar">
+        <div class="contenedor">
+          <p class="rotulo">Cómo llegar</p>
+          <h2 class="titulo-seccion" id="t-llegar">En avión, y de ahí en lancha</h2>
+
+          <ul class="puntos puntos--tres revelar">
+            <li class="punto-item">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V18l-2 1.5V21l3.5-1 3.5 1v-1.5L13 18v-4.5L21 16Z" />
+                </svg>
+                Solo por aire
+              </h3>
+              <p>
+                La página oficial de turismo de Colombia indica que Inírida no cuenta con vías
+                terrestres de acceso. Se llega en avión. Satena opera rutas hacia Inírida; consulta
+                itinerarios directamente en
+                <a href="https://satena.com" rel="noopener">satena.com</a>.
+              </p>
+            </li>
+            <li class="punto-item">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path d="M3 17c2 0 2 1.5 4.5 1.5S10 17 12 17s2 1.5 4.5 1.5S19 17 21 17v2.5c-2 0-2 1.5-4.5 1.5S14 19.5 12 19.5 10 21 7.5 21 5 19.5 3 19.5V17Zm2-2 1.5-6h11L19 15H5Zm6-9h2v2h-2V6Z" />
+                </svg>
+                Lo demás es fluvial
+              </h3>
+              <p>
+                Los desplazamientos dentro del destino se hacen en lancha. A los Cerros de Mavecure,
+                por ejemplo, se llega únicamente por río, con un trayecto de unas dos horas desde
+                Puerto Inírida.
+              </p>
+            </li>
+            <li class="punto-item">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path d="M12 2a7 7 0 0 0-7 7c0 5.3 7 13 7 13s7-7.7 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z" />
+                </svg>
+                El río manda
+              </h3>
+              <p>
+                El nivel del agua condiciona la navegación. La alcaldía advierte, por ejemplo, que en
+                verano el raudal de Mavicure se vuelve innavegable por lo peligroso de su caudal.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===================== ANTES DE VIAJAR ===================== -->
+      <section class="banda" id="recomendaciones" aria-labelledby="t-reco">
+        <div class="contenedor">
+          <p class="rotulo">Antes de viajar</p>
+          <h2 class="titulo-seccion" id="t-reco">Lo que conviene tener resuelto</h2>
+          <p class="entradilla prosa">
+            Solo incluimos aquí lo que pudimos respaldar con una fuente. Preferimos una lista corta y
+            cierta a una larga e inventada.
+          </p>
+
+          <ul class="puntos revelar">
+            <li class="punto-item">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path d="M11 2h2v4h-2V2Zm-5.7 2.9 1.4-1.4 2.8 2.8-1.4 1.4-2.8-2.8ZM12 8a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z" />
+                </svg>
+                Vacuna contra la fiebre amarilla
+              </h3>
+              <p>
+                El Ministerio de Salud pide vacunarse con al menos diez días de anticipación antes
+                de viajar a zonas de riesgo de fiebre amarilla, y Colombia atraviesa un brote desde
+                2024. Antes de comprar tiquetes, consulta en
+                <a href="https://www.minsalud.gov.co" rel="noopener">minsalud.gov.co</a> cuáles son
+                hoy las zonas de riesgo y qué aplica para Guainía.
+              </p>
+            </li>
+            <li class="punto-item">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path d="M12 4a1.5 1.5 0 0 1 1.5 1.5v7.3a4 4 0 1 1-3 0V5.5A1.5 1.5 0 0 1 12 4Z" />
+                </svg>
+                Calor constante
+              </h3>
+              <p>
+                Los boletines del IDEAM para la estación de Puerto Inírida muestran máximas mensuales
+                de alrededor de 29 a 33&nbsp;°C y mínimas de 22 a 24&nbsp;°C. No hay una estación
+                fría: la variable real es la lluvia.
+              </p>
+            </li>
+            <li class="punto-item">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path d="M7 16a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 17.7 8.2 3.9 3.9 0 0 1 17 16H7Zm1.6 2.6 1.7 1-1.5 2.6-1.7-1 1.5-2.6Zm5 0 1.7 1-1.5 2.6-1.7-1 1.5-2.6Z" />
+                </svg>
+                Temporada de lluvias
+              </h3>
+              <p>
+                Las lluvias comienzan normalmente hacia marzo, se intensifican a mitad de año y se
+                extienden hasta noviembre. El pico de precipitación se registra hacia junio y el mes
+                más seco es enero.
+              </p>
+            </li>
+            <li class="punto-item">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 4.5 1.6 3.8 4.1.3-3.1 2.7.95 4-3.55-2.2-3.55 2.2.95-4-3.1-2.7 4.1-.3L12 6.5Z" />
+                </svg>
+                Permisos y reglas vigentes
+              </h3>
+              <p>
+                Confirma con la AUNAP los requisitos aplicables y, con la comunidad del territorio
+                donde quieras pescar, las condiciones de acceso. Las vedas y las reglas cambian por
+                resolución.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===================== GALERÍA ===================== -->
+      <section class="banda banda--abismo" id="galeria" aria-labelledby="t-galeria">
+        <div class="contenedor">
+          <p class="rotulo">Galería</p>
+          <h2 class="titulo-seccion" id="t-galeria">Fotos del río</h2>
+          <p class="entradilla prosa">
+            Imágenes aportadas por el operador local. Toca cualquiera para verla en grande.
+          </p>
+
+          <ul class="galeria revelar" id="galeria-lista">
+            <!-- La galería se arma desde assets/js/galeria-data.js, que genera
+                 scripts/build-images.mjs a partir de data/fotos.json. -->
+          </ul>
+          <noscript>
+            <p style="margin-top: var(--paso-3)">
+              La galería necesita JavaScript para mostrarse. Las fotos también aparecen a lo largo de
+              esta página, en las secciones del destino, las especies y el ciclo del río.
+            </p>
+          </noscript>
+        </div>
+      </section>
+
+      <!-- ===================== PREGUNTAS FRECUENTES ===================== -->
+      <section class="banda" id="faq" aria-labelledby="t-faq">
+        <div class="contenedor contenedor--angosto">
+          <p class="rotulo">Preguntas frecuentes</p>
+          <h2 class="titulo-seccion" id="t-faq">Dudas razonables</h2>
+
+          <div class="faq">
+            <details>
+              <summary>¿Por qué ya no se dice «pesca deportiva»?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  Porque la Sentencia C-148 de 2022 de la Corte Constitucional declaró inexequibles
+                  las normas que la sustentaban, con efectos diferidos a un año. En 2025 el Congreso
+                  creó, mediante la Ley 2501, la categoría de «pesca de turismo».
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>¿Se necesita permiso para pescar?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  El artículo 11 de la Ley 2501 de 2025 establece que las personas, comunidades
+                  organizadas y operadores turísticos que exploten económicamente la pesca de turismo
+                  necesitan permiso de la AUNAP. La reglamentación que detalla requisitos, artes,
+                  tallas y temporadas todavía no aparece publicada, así que lo correcto es
+                  consultarlo con la AUNAP.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>¿Cuándo baja el río?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  Las aguas bajas van de enero a marzo, con el mínimo de caudal hacia marzo. Las
+                  aguas altas se dan en julio y agosto. Ten en cuenta que una de las fuentes
+                  consultadas propone un calendario distinto, de octubre a febrero para las aguas
+                  bajas.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>¿Hay veda?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  Sí. En 2026 rigió del 6 de abril al 31 de mayo en los ríos de Arauca, Vichada,
+                  Casanare, Meta, Guainía y Guaviare, con base en la Resolución AUNAP 2663 de 2022.
+                  Durante la veda no se permite la captura, el transporte ni la comercialización.
+                  Las fechas se fijan por resolución y cambian, así que hay que verificarlas cada
+                  año.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>¿Puedo entrar a Caño Bocón por mi cuenta?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  Caño Bocón está en territorio de resguardos indígenas. En Barranco Tigre el turismo
+                  lo administra la propia comunidad organizada, que además limita el número de
+                  visitantes a unas 200 personas al año. El acceso se coordina con la comunidad, no
+                  por cuenta propia.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>¿Qué es el «pavón pintalapa»?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  Es el nombre local del patrón moteado de <i>Cichla temensis</i>, la misma especie
+                  del pavón cinchado. No es una especie aparte ni la cría del cinchado: se capturan
+                  ejemplares moteados adultos de todas las tallas, incluidos los más grandes. El
+                  patrón cambia con el estado reproductivo del pez.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>¿Cómo se llega a Inírida?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  En avión: la página oficial de turismo señala que la población no cuenta con vías
+                  terrestres de acceso. Una vez allí, los desplazamientos son fluviales.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>¿Necesito la vacuna de la fiebre amarilla?</summary>
+              <div class="faq__respuesta sin-margen-final">
+                <p>
+                  El Ministerio de Salud pide vacunarse con al menos diez días de anticipación antes
+                  de viajar a zonas de riesgo de fiebre amarilla. No pudimos confirmar en una fuente
+                  oficial legible si en este momento es un requisito de ingreso al departamento o
+                  una recomendación, y las notas de prensa no coinciden entre sí, así que
+                  verifícalo en <a href="https://www.minsalud.gov.co" rel="noopener">minsalud.gov.co</a>
+                  antes de viajar. En cualquier caso, diez días de anticipación es el plazo que hay
+                  que respetar.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CONTACTO ===================== -->
+      <section class="banda banda--oscura contacto" id="contacto" aria-labelledby="t-contacto">
+        <div class="contenedor">
+          <div class="contacto__caja">
+            <div>
+              <p class="rotulo" style="--banda-tenue: #bca98c">Contacto</p>
+              <h2 id="t-contacto">¿Quieres información sobre una salida?</h2>
+            </div>
+
+            <p style="max-width: 46ch; color: #d9c9ad; margin: 0">
+              Escribe por WhatsApp o llama. Te responde directamente quien organiza las salidas en
+              Inírida.
+            </p>
+
+            <div class="botonera">
+              <a
+                class="boton boton--wa"
+                href="https://wa.me/573124420951?text=Hola%2C%20vi%20la%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n%20sobre%20las%20salidas%20de%20pesca%20en%20In%C3%ADrida"
+                rel="noopener"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path
+                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.84-.85 2.04s.87 2.37.99 2.53c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29Z"
+                  />
+                </svg>
+                Escribir por WhatsApp
+              </a>
+              <a class="boton boton--llamada" href="tel:+573124420951">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                  <path
+                    d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"
+                  />
+                </svg>
+                Llamar
+              </a>
+            </div>
+
+            <p style="margin: 0">
+              <a class="contacto__numero" href="tel:+573124420951">+57 312 4420951</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== FUENTES ===================== -->
+      <section class="banda banda--granito" id="fuentes" aria-labelledby="t-fuentes">
+        <div class="contenedor">
+          <p class="rotulo">Fuentes</p>
+          <h2 class="titulo-seccion" id="t-fuentes">De dónde sale cada dato</h2>
+          <p class="entradilla prosa">
+            Todo lo que afirmamos aquí viene de alguna de estas fuentes. Donde no encontramos
+            respaldo, lo dejamos por fuera y lo dijimos.
+          </p>
+
+          <div class="revelar" style="margin-top: var(--paso-4)">
+            <div class="fuentes-grupo">
+              <h3>Normativa y jurisprudencia</h3>
+              <ul>
+                <li>
+                  Corte Constitucional, Sentencia C-148 de 2022 —
+                  <a href="https://www.corteconstitucional.gov.co/relatoria/2022/C-148-22.htm" rel="noopener">corteconstitucional.gov.co</a>
+                </li>
+                <li>
+                  Ley 2501 de 2025, Gestor Normativo de Función Pública —
+                  <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=261716" rel="noopener">funcionpublica.gov.co</a>
+                </li>
+                <li>
+                  Ley 2501 de 2025, régimen legal de Bogotá —
+                  <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=188313" rel="noopener">alcaldiabogota.gov.co</a>
+                </li>
+                <li>
+                  Resolución AUNAP 2575 del 22 de diciembre de 2020 —
+                  <a href="https://aunap.gov.co/download/resolucion-numero-2575-del-22-de-diciembre-de-2020/" rel="noopener">aunap.gov.co</a>
+                </li>
+                <li>
+                  AUNAP, boletines y vedas vigentes —
+                  <a href="https://aunap.gov.co/category/boletines/" rel="noopener">aunap.gov.co/category/boletines</a>
+                </li>
+                <li>
+                  «Inicia veda de pesca en ríos de la Orinoquía», Radio Nacional de Colombia, 6 de
+                  abril de 2026 —
+                  <a href="https://www.radionacional.co/noticias-colombia/inicia-veda-de-pesca-en-rios-de-la-orinoquia" rel="noopener">radionacional.co</a>
+                </li>
+                <li>
+                  «Pesca de turismo: qué se aprobó y qué falta», Agenda del Mar, 25 de agosto de 2025 —
+                  <a href="https://agendadelmar.com/pesca-de-turismo-que-se-aprobo-y-que-falta/" rel="noopener">agendadelmar.com</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="fuentes-grupo">
+              <h3>Estrella Fluvial de Inírida y territorio</h3>
+              <ul>
+                <li>
+                  Ficha Ramsar n.º 2217 (no respondió durante nuestra consulta del 17 de noviembre de
+                  2026) —
+                  <a href="https://rsis.ramsar.org/ris/2217" rel="noopener">rsis.ramsar.org/ris/2217</a>
+                </li>
+                <li>
+                  «Día Mundial del Agua: la historia de la Estrella Fluvial Inírida», Mongabay Latam,
+                  2023 —
+                  <a href="https://es.mongabay.com/2023/03/dia-mundial-del-agua-estrella-fluvial-inirida-colombia/" rel="noopener">es.mongabay.com</a>
+                </li>
+                <li>
+                  «Los indígenas que protegen su territorio a través de la pesca y la ciencia»,
+                  Mongabay Latam, mayo de 2025 —
+                  <a href="https://es.mongabay.com/2025/05/indigenas-protegen-territorio-pesca-ciencia/" rel="noopener">es.mongabay.com</a>
+                </li>
+                <li>
+                  Entrevista al líder indígena Delio Suárez, Mongabay Latam, 2022 —
+                  <a href="https://es.mongabay.com/2022/10/conservacion-estrella-fluvial-del-inirida-en-colombia-entrevista-a-lider-indigena-delio-suarez/" rel="noopener">es.mongabay.com</a>
+                </li>
+                <li>
+                  WWF Colombia, ocho años de conservación de la Estrella Fluvial Inírida —
+                  <a href="https://wwf.org.co/?374312%2FAsi-se-ha-conservado-la-Estrella-Fluvial-Inirida-durante-los-ultimos-8-anos=" rel="noopener">wwf.org.co</a>
+                </li>
+                <li>
+                  WWF, Plan de manejo de la Estrella Fluvial Inírida (PDF) —
+                  <a href="https://wwflac.awsassets.panda.org/downloads/planmanejo_efi_wb_1.pdf" rel="noopener">wwflac.awsassets.panda.org</a>
+                </li>
+                <li>
+                  Fundación Omacha, Biodiversidad de la Estrella Fluvial Inírida (PDF) —
+                  <a href="https://www.omacha.org/descargas/2014/biodiversidad-estrella-fluvial-inirida-final.pdf" rel="noopener">omacha.org</a>
+                </li>
+                <li>
+                  «El cerro de Mavicure y la Estrella Fluvial de Oriente», Geopatrimonio, 2023 —
+                  <a href="https://www.geopatrimonio.org/2023/05/30/el-cerro-de-mavicure-y-la-estrella-fluvial-de-oriente-geoparques-para-el-guainia/" rel="noopener">geopatrimonio.org</a>
+                </li>
+                <li>
+                  «Peces de la Estrella Fluvial Inírida: ríos Guaviare, Inírida, Atabapo y Orinoco» —
+                  <a href="https://www.researchgate.net/publication/283220709_Peces_de_la_Estrella_Fluvial_Inirida_rios_Guaviare_Inirida_Atabapo_y_Orinoco_Orinoquia_colombiana" rel="noopener">researchgate.net</a>
+                </li>
+                <li>
+                  Otálvaro-Sierra, C. A. y Santos, R. J. (2021). «Produções de natureza em
+                  territórios em disputa: Caño Bocón, Departamento do Guainía, Colômbia».
+                  <i>Caderno Virtual de Turismo</i>, 21(1) —
+                  <a href="https://www.redalyc.org/journal/1154/115466307001/115466307001.pdf" rel="noopener">redalyc.org</a>
+                </li>
+                <li>
+                  Alcaldía de Inírida, sitios de interés —
+                  <a href="https://www.inirida-guainia.gov.co/MiMunicipio/Paginas/Sitios-de-Interes.aspx" rel="noopener">inirida-guainia.gov.co</a>
+                </li>
+                <li>
+                  Colombia Travel, página oficial de Guainía —
+                  <a href="https://colombia.travel/es/guainia" rel="noopener">colombia.travel</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="fuentes-grupo">
+              <h3>Especies</h3>
+              <ul>
+                <li>
+                  «Color pattern variation in <i>Cichla temensis</i>: resolution based on
+                  morphological, molecular, and reproductive data», <i>Neotropical Ichthyology</i> —
+                  <a href="https://www.scielo.br/j/ni/a/x4SnXbTyRxKJDYFW6CC8Rbn/?format=html&amp;lang=en" rel="noopener">scielo.br</a>
+                </li>
+                <li>
+                  ScienceDirect, panorama del género <i>Cichla</i> —
+                  <a href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/cichla" rel="noopener">sciencedirect.com</a>
+                </li>
+                <li>
+                  Fishipedia, <i>Cichla orinocensis</i> —
+                  <a href="https://www.fishipedia.es/pez/cichla-orinocensis" rel="noopener">fishipedia.es</a>
+                </li>
+                <li>
+                  Seriously Fish, <i>Hydrolycus armatus</i> —
+                  <a href="https://www.seriouslyfish.com/species/hydrolycus-armatus/" rel="noopener">seriouslyfish.com</a>
+                </li>
+                <li>
+                  FishBase, <i>Hydrolycus armatus</i> —
+                  <a href="https://fishbase.org/summary/SpeciesSummary.php?AT=Payara&amp;ID=57050" rel="noopener">fishbase.org</a>
+                </li>
+                <li>
+                  Estudio comparativo de la dieta de <i>Piaractus brachypomus</i>,
+                  <i>Neotropical Ichthyology</i> —
+                  <a href="https://www.scielo.br/j/ni/a/DpX9GbLQvZq6qWZrmGx6YxN/?lang=en" rel="noopener">scielo.br</a>
+                </li>
+                <li>
+                  «DNA barcoding and phylogeography of the <i>Hoplias malabaricus</i> species
+                  complex» —
+                  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8960906/" rel="noopener">ncbi.nlm.nih.gov</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="fuentes-grupo">
+              <h3>Salud y clima</h3>
+              <ul>
+                <li>
+                  Ministerio de Salud y Protección Social —
+                  <a href="https://www.minsalud.gov.co" rel="noopener">minsalud.gov.co</a>
+                </li>
+                <li>
+                  «Minsalud pide no viajar a zonas endémicas sin vacuna contra la fiebre amarilla»,
+                  RTVC Noticias, 28 de enero de 2026 —
+                  <a href="https://www.rtvcnoticias.com/actualidad/salud/no-viaje-zonas-endemicas-sin-vacuna-contra-la-fiebre-amarilla" rel="noopener">rtvcnoticias.com</a>
+                </li>
+                <li>
+                  IDEAM, boletines climatológicos —
+                  <a href="https://ideam.gov.co" rel="noopener">ideam.gov.co</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== PIE ===================== -->
+    <footer class="sitio-pie">
+      <div class="contenedor sitio-pie__fila">
+        <div>
+          <p>
+            <b>Pesca en Inírida</b> — página informativa sobre salidas de pesca en Puerto Inírida y
+            la Estrella Fluvial de Inírida, Guainía, Colombia.
+          </p>
+          <p style="margin-bottom: 0">
+            Información verificada el 17 de noviembre de 2026. Las vedas, los permisos y la
+            reglamentación cambian: consulta siempre la
+            <a href="https://www.aunap.gov.co" rel="noopener">AUNAP</a> antes de viajar.
+          </p>
+        </div>
+        <div>
+          <p>
+            Fotografías aportadas por el operador local. No se publican nombres de las personas que
+            aparecen en ellas.
+          </p>
+          <p style="margin-bottom: 0">
+            <a href="tel:+573124420951">+57 312 4420951</a> ·
+            <a
+              href="https://wa.me/573124420951?text=Hola%2C%20vi%20la%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n%20sobre%20las%20salidas%20de%20pesca%20en%20In%C3%ADrida"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botón flotante -->
+    <a
+      class="wa-flotante"
+      href="https://wa.me/573124420951?text=Hola%2C%20vi%20la%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n%20sobre%20las%20salidas%20de%20pesca%20en%20In%C3%ADrida"
+      rel="noopener"
+      aria-label="Escribir por WhatsApp sobre las salidas de pesca en Inírida"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+        <path
+          d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.84-.85 2.04s.87 2.37.99 2.53c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29Z"
+        />
+      </svg>
+      <span class="wa-flotante__texto">WhatsApp</span>
+    </a>
+
+    <!-- Visor de imágenes -->
+    <dialog class="visor" id="visor" aria-label="Imagen ampliada">
+      <div class="visor__caja">
+        <img class="visor__imagen" id="visor-imagen" src="" alt="" width="1080" height="720" />
+        <p class="visor__pie" id="visor-pie"></p>
+      </div>
+      <button type="button" class="visor__cerrar" id="visor-cerrar" aria-label="Cerrar la imagen ampliada">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+          <path
+            d="m12 10.6 5.3-5.3 1.4 1.4-5.3 5.3 5.3 5.3-1.4 1.4-5.3-5.3-5.3 5.3-1.4-1.4 5.3-5.3-5.3-5.3 1.4-1.4 5.3 5.3Z"
+          />
+        </svg>
+      </button>
+    </dialog>
+
+    <script src="assets/js/galeria-data.js" defer></script>
+    <script src="assets/js/sitio.js" defer></script>
+  </body>
+</html>

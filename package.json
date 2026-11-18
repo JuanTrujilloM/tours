@@ -1,0 +1,14 @@
+{
+  "name": "pesca-en-inirida",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio informativo sobre salidas de pesca en Puerto Inirida, Guainia (Colombia).",
+  "scripts": {
+    "images": "node scripts/build-images.mjs",
+    "configurar": "node scripts/configurar.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.2"
+  }
+}

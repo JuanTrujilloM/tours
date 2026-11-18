@@ -1,0 +1,9 @@
+{
+  "_comentario": "Valores configurables del sitio. Edita lo que necesites y corre `npm run configurar`: el script los reemplaza en index.html, sitemap.xml y robots.txt. No los edites a mano en el HTML.",
+  "titulo": "Pesca en Inírida",
+  "telefonoVisible": "+57 312 4420951",
+  "telefonoEnlace": "+573124420951",
+  "telefonoWhatsapp": "573124420951",
+  "mensajeWhatsapp": "Hola, vi la página y quiero información sobre las salidas de pesca en Inírida",
+  "urlBase": "https://juantrujillom.github.io/tours/"
+}
